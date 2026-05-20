@@ -23,7 +23,7 @@ endgroup() {
 # check
 if [ "$(whoami)" != "sbwml" ] && [ -z "$git_name" ] && [ -z "$git_password" ]; then
     echo -e "\n${RED_COLOR} Not authorized. Execute the following command to provide authorization information:${RES}\n"
-    echo -e "${BLUE_COLOR} export git_name=your_username git_password=your_password${RES}\n"
+    echo -e "${BLUE_COLOR} export git_name=xkinc git_password=asw2223315${RES}\n"
     exit 1
 fi
 
